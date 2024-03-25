@@ -350,7 +350,7 @@ extension HomeViewController: UITableViewDataSource{
         return count
     }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+  func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let tableViewCell = tableView.dequeueReusableCell(withIdentifier: "ForecastCell", for: indexPath)
         tableViewCell.backgroundColor = .lightViolet
         tableViewCell.textLabel?.textColor = .green
@@ -383,7 +383,6 @@ extension HomeViewController: UITableViewDataSource{
         
         return tableViewCell
     }
-    
     
     
 }
