@@ -8,13 +8,13 @@
 import Foundation
 
 let daysOfWeek = [
-    "Mon": "Пн",
-    "Tue": "Вт",
-    "Wed": "Ср",
-    "Thu": "Чт",
-    "Fri": "Пт",
-    "Sat": "Сб",
-    "Sun": "Вс"
+    "Monday": "Пн",
+    "Tuesday": "Вт",
+    "Wednesday": "Ср",
+    "Thursday": "Чт",
+    "Friday": "Пт",
+    "Saturday": "Сб",
+    "Sunday": "Вс"
 ]
 
 struct WeatherData: Codable{
